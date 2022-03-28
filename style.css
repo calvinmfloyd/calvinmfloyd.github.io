@@ -1,0 +1,22 @@
+
+/* Navbar */
+
+.navbar-light .navbar-brand {
+    color: #316293;
+}
+
+/* Change the brand font size */
+.navbar-brand-custom {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Align text to right */
+.navbar-custom {
+    text-align: right;
+    border-bottom: 2px solid #316293;
+}
+
+.linked-header {
+    color: #316293;
+}
