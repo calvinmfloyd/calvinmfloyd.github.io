@@ -7,7 +7,7 @@
 
 /* Change the brand font size */
 .navbar-brand-custom {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -20,3 +20,36 @@
 .linked-header {
     color: #316293;
 }
+
+/* Horizontal background image */
+.bg {
+    
+    background-image: url("images/rit_profile.jpg");
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Full height */
+    height: 750px;
+    
+}
+
+
+.centered-banner {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.my-name {
+    font-size: calc(50px + (70 - 50) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: bold;
+    color: white;
+}
+
+
