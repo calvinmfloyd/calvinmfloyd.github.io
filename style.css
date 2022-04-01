@@ -107,38 +107,41 @@ hr.header {
     width: auto;
     
     border-bottom: 2px solid #316293;
-    -webkit-filter: grayscale(15%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(15%);
+    -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(10%);
     
 }
 
-.centered-banner {
+.banner {
     
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 42%;
+    top: 70%;
 
     transform: translate(-50%, -50%);
+    
+    color: #FFFFFF;
+    text-align: left;
+    white-space: nowrap;
+
 }
 
 .my-name {
-    font-size: calc(50px + (70 - 50) * ((100vw - 300px) / (1600 - 300)));
+    font-size: 70px;
     font-weight: bold;
+    margin-bottom: -1rem;
 }
 
-.my-name-lower-caps {
-    font-size: calc(0.8 * 50px + (70 - 50) * ((100vw - 300px) / (1600 - 300)));
+.last-name {
+  
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #696969; /* Text shadow in gray */
+    
 }
 
 .my-descriptors {
-    font-size: calc(20px + (32 - 20) * ((100vw - 300px) / (1600 - 300)));
-}
-
-.name-box {
-    /*background-color: rgba(45,45,45,0.6);*/
-    color: #FFFFFF;
-    text-align: left;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Outline letters in black */
+  
+    font-size: 30px;
 }
 
 /**/
