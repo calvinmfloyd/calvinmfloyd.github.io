@@ -1,10 +1,13 @@
 
+/**/
+/* Overall Settings */
+/**/
+
 body {
     
   text-align: center;
     
 }
-
 
 html {
   
@@ -61,6 +64,10 @@ html {
     color: #316293;
     font-weight: normal;
 }
+
+/**/
+/* hr */
+/**/
 
 hr.header {
     
@@ -124,7 +131,6 @@ hr.header {
 }
 
 .my-name {
-    /*font-size: 70px;*/
     font-size: calc(50px + (70 - 50) * ((100vw - 300px) / (1600 - 300)));
     font-weight: bold;
     margin-bottom: -1rem;
@@ -222,6 +228,18 @@ a.publication-a:hover {
     color:rgba(255, 255, 255, 1);
 }
 
+/* Image stacking */
+
+.row.row-no-margin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.col-no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 /**/
 /* Contact */
 /**/
@@ -242,17 +260,5 @@ a.publication-a:hover {
   padding-left: 10px;
   padding-right: 10px;
   
-}
-
-/* Image stacking */
-
-.row.row-no-margin {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.col-no-padding {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
 }
 
