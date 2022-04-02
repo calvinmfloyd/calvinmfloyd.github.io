@@ -93,9 +93,7 @@ hr.header {
 
 .bg {
     
-    /*background-image: url("images/rit_profile.jpg");*/
-    /*background-image: url("images/rit_profile_centered.jpg");*/
-    background-image: url("images/rit_profile_test.jpg");
+    background-image: url("images/landing_image.jpg");
     
     /* Center and scale the image nicely */
     background-position: center;
@@ -159,7 +157,7 @@ hr.header {
 
 .bg-contact {
   
-  padding-top: 50px;
+  padding-top: 75px;
   padding-bottom: 100px;
   
 }
@@ -246,7 +244,7 @@ a.publication-a:hover {
   
 }
 
-/* Testing out image stacking */
+/* Image stacking */
 
 .row.row-no-margin {
   margin-left: 0px;
