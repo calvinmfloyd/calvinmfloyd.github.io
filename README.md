@@ -1,1 +1,1 @@
-This repo helps build my personal website, [calvinfloyd.com](calvinfloyd.com).
+This repo helps build my personal website, [calvinfloyd.com](www.calvinfloyd.com).
